@@ -463,6 +463,7 @@ public class MainActivity extends AppCompatActivity implements SurfaceHolder.Cal
         if (filterName.equals("none")) {
             return null;
         }
+
         return "file:///android_asset/" + filterName;
     }
 
